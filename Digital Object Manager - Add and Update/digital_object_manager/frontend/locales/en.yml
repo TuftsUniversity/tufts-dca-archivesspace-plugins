@@ -1,0 +1,15 @@
+en:
+  plugins:
+    digital_object_manager:
+      title: Digital Object Manager
+      label: Digital Object Manager
+      actions:
+        batch_download: Batch MODS Download
+        batch_update: Batch Update
+        export_mods: Export MODS
+        upload: Upload
+      defaults:
+       #link_title: "Special Collections @ DU"
+        prefix: "http://hdl.handle.net/10176/"
+      messages:
+        invalid_mime_type: "<strong>Invalid MIME type:</strong> %{filename} (must be text/plain, text/csv, or application/vnd.ms-excel)"
